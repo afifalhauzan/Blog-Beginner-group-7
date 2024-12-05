@@ -21,6 +21,11 @@ class ProfileController extends Controller
         ]);
     }
 
+    public function showAdminDashboard()
+    {
+        return view('admin');
+    }
+
     /**
      * Update the user's profile information.
      */
