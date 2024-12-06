@@ -3,9 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/', [ProfileController::class, 'showHomepage'])->name('homepage');
 
 Route::get('/homepage', [ProfileController::class, 'showHomepage'])->name('homepage');
 
