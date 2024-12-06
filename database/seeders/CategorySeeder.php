@@ -12,10 +12,11 @@ class CategorySeeder extends Seeder
     public function run()
     {
         // Create some categories
-        Category::create(['name' => 'Technology']);
-        Category::create(['name' => 'Lifestyle']);
-        Category::create(['name' => 'Health']);
-        Category::create(['name' => 'Education']);
+        Category::create(['name' => 'AI']);
+        Category::create(['name' => 'AR/VR']);
+        Category::create(['name' => 'Devices']);
+        Category::create(['name' => 'Gaming']);
+        Category::create(['name' => 'General']);
     }
 }
 

@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
 use App\Models\Article;
+use App\Models\Category;
 
 class ProfileController extends Controller
 {
@@ -24,7 +25,8 @@ class ProfileController extends Controller
 
     public function showAdminDashboard()
     {
-        return view('admin');
+        $categories = Category::all();
+        return view('admin.categories.categories', compact('categories'));
     }
 
     public function showHomepage()
@@ -34,6 +36,32 @@ class ProfileController extends Controller
         return view('homepage', ['articles' => $articles]);
     }
 
+    public function articleById($id)
+    {
+        // Find the article by its ID
+        $article = Article::findOrFail($id);
+
+        // Return the article view with the article data
+        return view('article', ['article' => $article]);
+    }
+
+    public function nextArticle($id)
+    {
+        // Find the current article by ID
+        $currentArticle = Article::findOrFail($id);
+
+        // Get the next article based on the current article's ID
+        // Assuming the next article is the one with a higher ID
+        $nextArticle = Article::where('id', '>', $currentArticle->id)
+            ->orderBy('id', 'asc') // Ordering by ID to get the next one
+            ->first();
+
+        if ($nextArticle) {
+            return redirect()->route('articleById', ['id' => $nextArticle->id]); // Pass the next article to the view
+        }
+
+        return redirect()->route('homepage')->with('error', 'No more articles'); // Redirect if no article is found
+    }
 
     /**
      * Update the user's profile information.

@@ -11,9 +11,9 @@ class TagSeeder extends Seeder
     public function run()
     {
         // Create some tags
-        Tag::create(['name' => 'Laravel']);
-        Tag::create(['name' => 'PHP']);
-        Tag::create(['name' => 'JavaScript']);
+        Tag::create(['name' => 'User Experience']);
+        Tag::create(['name' => 'Machine Learning']);
+        Tag::create(['name' => 'Cyber Security']);
         Tag::create(['name' => 'Web Development']);
     }
 }

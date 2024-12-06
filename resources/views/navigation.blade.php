@@ -1,4 +1,4 @@
-<nav class="bg-gray-800 text-white p-4">
+<nav class="bg-gray-800 text-white p-4 sticky top-0 z-50 shadow-lg">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="text-xl font-bold pr-16">
             <a href="{{ route('homepage') }}"
@@ -14,7 +14,7 @@
             </a>
             <a href="{{ route('about') }}"
                 class="text-white hover:text-gray-400">
-                Tentang Kami
+                About Us
             </a>
         </div>
 
@@ -27,7 +27,7 @@
             </a>
             @else
             <div class="relative justify-center content-center">
-                <div id="dropdownButton" class="relative flex items-center justify-center">
+                <div id="dropdownButton" class="relative flex items-center justify-center pl-14">
                     <span class="font-sans">Hai,</span>
                     <span class="font-sans mr-1"> </span>
                     <span class="font-bold"> {{ auth()->user()->name }}!</span>

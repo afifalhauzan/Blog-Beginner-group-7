@@ -19,14 +19,26 @@
         <h1 class="text-2xl font-bold mb-4">Articles</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             @foreach ($articles as $article)
-            <div class="p-4 bg-white shadow rounded-lg">
-                <h2 class="text-lg font-bold">{{ $article->title }}</h2>
-                <p class="text-gray-600">{{ Str::limit($article->full_text, 100) }}</p>
-                <a href="#" class="text-indigo-600 hover:underline">Read more</a>
+            <div class="p-4 bg-white shadow rounded-lg hover:shadow-lg transform hover:-translate-y-2 transition duration-300 hover:text-blue-700 space-y-4">
+                <!-- Image -->
+                <div class="relative rounded-lg pb-2">
+                    <img src="{{ asset('storage/' . $article->image) }}" alt="{{ $article->title }}" class="rounded-lg">
+                    <!-- Title on Image -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex items-end p-4 pb-2 rounded-lg">
+                        <h2 class="text-lg font-bold text-white">{{ $article->title }}</h2>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-gray-600">{{ Str::limit($article->full_text, 120) }}</p>
+                    <a href="{{ route('articleById', ['id' => $article->id]) }}" class="block text-right text-blue-500 hover:underline">Read more</a>
+                </div>
             </div>
             @endforeach
         </div>
     </div>
+
+    @include('footer')
 </body>
 
 </html>
