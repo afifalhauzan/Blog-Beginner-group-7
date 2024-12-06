@@ -14,6 +14,19 @@
 
 <body class="font-sans antialiased bg-gray-50">
     @include('navigation')
+
+    <div class="container mx-auto px-4 py-10">
+        <h1 class="text-2xl font-bold mb-4">Articles</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            @foreach ($articles as $article)
+            <div class="p-4 bg-white shadow rounded-lg">
+                <h2 class="text-lg font-bold">{{ $article->title }}</h2>
+                <p class="text-gray-600">{{ Str::limit($article->full_text, 100) }}</p>
+                <a href="#" class="text-indigo-600 hover:underline">Read more</a>
+            </div>
+            @endforeach
+        </div>
+    </div>
 </body>
 
 </html>

@@ -7,9 +7,11 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/homepage', function () {
-    return view('homepage');
-})->name('homepage');
+Route::get('/homepage', [ProfileController::class, 'showHomepage'])->name('homepage');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -23,4 +25,4 @@ Route::middleware('auth')->group(function () {
     Route::get('/admindashboard', [ProfileController::class, 'showAdminDashboard'])->name('admindashboard');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

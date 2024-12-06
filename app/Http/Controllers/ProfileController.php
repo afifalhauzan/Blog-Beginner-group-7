@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
+use App\Models\Article;
 
 class ProfileController extends Controller
 {
@@ -25,6 +26,14 @@ class ProfileController extends Controller
     {
         return view('admin');
     }
+
+    public function showHomepage()
+    {
+        $articles = Article::all();
+
+        return view('homepage', ['articles' => $articles]);
+    }
+
 
     /**
      * Update the user's profile information.

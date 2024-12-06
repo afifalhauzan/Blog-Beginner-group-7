@@ -12,7 +12,7 @@
                 class="text-white hover:text-gray-400">
                 Home
             </a>
-            <a href="{{ route('homepage') }}"
+            <a href="{{ route('about') }}"
                 class="text-white hover:text-gray-400">
                 Tentang Kami
             </a>
