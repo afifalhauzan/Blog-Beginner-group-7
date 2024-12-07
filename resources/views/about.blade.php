@@ -21,21 +21,21 @@
         <div class="flex justify-center gap-12">
             <!-- Person 1 -->
             <div class="text-center">
-                <img src="path_to_image/person1.jpg" alt="Person 1" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
+                <img src="{{asset('images/apip.jpg')}}" alt="Person 1" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
                 <h3 class="text-lg font-semibold text-gray-800">Person 1</h3>
                 <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
             </div>
 
             <!-- Person 2 -->
             <div class="text-center">
-                <img src="path_to_image/person2.jpg" alt="Person 2" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
+                <img src="{{asset('images/ucup.jpg')}}" alt="Person 2" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
                 <h3 class="text-lg font-semibold text-gray-800">Person 2</h3>
                 <p class="text-gray-600 mt-2">Suspendisse potenti. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue.</p>
             </div>
 
             <!-- Person 3 -->
             <div class="text-center">
-                <img src="path_to_image/person3.jpg" alt="Person 3" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
+                <img src="{{asset('images/sasa.jpg')}}" alt="Person 3" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
                 <h3 class="text-lg font-semibold text-gray-800">Person 3</h3>
                 <p class="text-gray-600 mt-2">Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.</p>
             </div>
