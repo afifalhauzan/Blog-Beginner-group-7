@@ -28,16 +28,23 @@ class ArticleSeeder extends Seeder
         // Define hardcoded articles
         $articles = [
             [
-                'title' => 'The Future of AI in Technology',
+                'title' => 'Game Turn-Based RPG Tersulit Sepanjang Masa',
                 'full_text'
-                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
-
-                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
-
-                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
-
-                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
-                    ',
+                => 'Bagi pemain yang bukan penggemar game RPG berbasis giliran umumnya akan menyebut jika game semacam itu membosankan dan repetitif alih-alih menantang.
+                Padahal, jika dibanding dengan game RPG dengan sistem combat real-time,
+                RPG dengan sistem combat berbasis giliran menawarkan keseimbangan yang baik antara menyenangkan dan menantang.
+                Berikut 7 diantaranya yang paling sulit sepanjang masa.
+                
+                1. 
+                Satu hal unik mengenai Phantasy Star 2 adalah tidak hanya musuh yang membuat game ini sulit, tapi juga layout dari dungeon yang diusungnya. 
+                Dungeon di game ini bak labirin yang bisa membuat pemain tersesat dan bahkan berlapis-lapis sehingga membuat proses eksplorasi jadi bisa sangat membingungkan. 
+                Karenanya, mudah bagi pemain untuk tidak hanya berputar-putar di satu area yang sama saja, tapi juga terus dibombardir dengan segudang musuh yang tak kalah sulit untuk dikalahkan.
+                
+                2. 
+                Game-game Shin Megami Tensei punya reputasi sebagai game yang sulit dari kebanyakan game RPG berbasis giliran, karena pemain bisa dengan mudah mendapatkan tulisan ‘game over’ jika tidak berhati-hati. 
+                Hal tersebut juga terjadi di Nocturne yang bahkan memiliki beberapa bos awal dengan tingkat kesulitan tinggi, terutama Matador. 
+                Bagi pemain yang tidak pernah bermain game RPG berbasis giliran atau Nocturne jadi game Shin Megami Tensei pertama mereka, pemain harus terbiasa untuk sering mati.
+                ',
                 'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
                 'user_id' => $userIds[array_rand($userIds)], // Random user
                 'category_id' => $categoryId, // Technology category
