@@ -35,12 +35,12 @@ class ArticleSeeder extends Seeder
                 RPG dengan sistem combat berbasis giliran menawarkan keseimbangan yang baik antara menyenangkan dan menantang.
                 Berikut 7 diantaranya yang paling sulit sepanjang masa.
                 
-                1. 
+                1. Phantasy Star 2
                 Satu hal unik mengenai Phantasy Star 2 adalah tidak hanya musuh yang membuat game ini sulit, tapi juga layout dari dungeon yang diusungnya. 
                 Dungeon di game ini bak labirin yang bisa membuat pemain tersesat dan bahkan berlapis-lapis sehingga membuat proses eksplorasi jadi bisa sangat membingungkan. 
                 Karenanya, mudah bagi pemain untuk tidak hanya berputar-putar di satu area yang sama saja, tapi juga terus dibombardir dengan segudang musuh yang tak kalah sulit untuk dikalahkan.
                 
-                2. 
+                2. Shin Megami Tensei
                 Game-game Shin Megami Tensei punya reputasi sebagai game yang sulit dari kebanyakan game RPG berbasis giliran, karena pemain bisa dengan mudah mendapatkan tulisan ‘game over’ jika tidak berhati-hati. 
                 Hal tersebut juga terjadi di Nocturne yang bahkan memiliki beberapa bos awal dengan tingkat kesulitan tinggi, terutama Matador. 
                 Bagi pemain yang tidak pernah bermain game RPG berbasis giliran atau Nocturne jadi game Shin Megami Tensei pertama mereka, pemain harus terbiasa untuk sering mati.
@@ -89,16 +89,17 @@ class ArticleSeeder extends Seeder
                 'category_id' => $categoryId, // Technology category
             ], 
             [
-                'title' => 'The Future of AI in Technology',
+                'title' => 'Tren Media Sosial Bakal Melejit 2025 Versi Hootsuite',
                 'full_text'
-                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
+                => '1. Lebih dari 60 persen konten sosial kini berfokus pada hiburan, pendidikan, atau informasi
+                Tahun depan, tren eksperimen konten di media sosial bakal mengalami transformasi besar yang mencerminkan perubahan cara organisasi berinteraksi dengan audiens mereka. Salah satu perubahan utama adalah keberanian tim media sosial untuk mengeksplorasi kreativitas mereka lebih dalam.
+                
+                2. Sekitar 62 persen profesional media sosial kini memanfaatkan alat social listening
+                Pada 2025, social listening (mendengarkan percakapan di media sosial) semakin menjadi kunci dalam kesuksesan social marketing. Dulu, social listening hanya dipandang sebagai cara untuk memantau pembicaraan mengenai merek. Namun, sekarang ia telah berkembang menjadi alat yang lebih canggih dan integral dalam strategi pemasaran. 
 
-                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
-
-                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
-
-                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
-                    ',
+                3. 83 persen marketer kini mengandalkan AI untuk menghasilkan lebih banyak konten
+                Generative AI yang dulu dianggap dengan keraguan oleh banyak social media marketer kini telah diterima sebagai alat yang sangat berharga dalam dunia media sosial. Pada 2024, penggunaan AI untuk pembuatan konten sosial telah mengalami perkembangan pesat, tidak hanya di perusahaan besar, tetapi juga di berbagai sektor, termasuk yang paling diawasi ketat seperti pemerintah dan kesehatan
+                ',
                 'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
                 'user_id' => $userIds[array_rand($userIds)], // Random user
                 'category_id' => $categoryId, // Technology category
@@ -119,46 +120,45 @@ class ArticleSeeder extends Seeder
                 'category_id' => $categoryId, // Technology category
             ],
             [
-                'title' => 'The Future of AI in Technology',
+                'title' => 'Rekomendasi Game dengan Visual 3D di PlayStation',
                 'full_text'
-                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
-
-                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
-
-                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
-
-                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
-                    ',
+                => '1. Final Fantasy
+                Dari semua game Final Fantasy di PlayStation, Final Fantasy IX jadi game yang memiliki visual terbaik.
+                Game ini memiliki dunia yang indah dengan visual 3D yang lebih halus.
+                Tiap area yang kamu kunjungi akan memberikan perasaan berbeda saat memainkannya.
+                
+                
+                2. Crash Bandicoot: Warped (1998)
+                Crash Bandicoot: Warped jadi game ketiga dari seri Crash Bandicoot di PlayStation.
+                Game ini menghadirkan dunia yang lebih halus dan desain karakter yang tidak terlalu kaku.
+                Tiap level dari game ini juga sangat bervariasi dan menantang.
+                ',
                 'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
                 'user_id' => $userIds[array_rand($userIds)], // Random user
                 'category_id' => $categoryId, // Technology category
             ],
             [
-                'title' => 'The Future of AI in Technology',
+                'title' => 'Smartwatch Xiaomi di Akhir 2024, Bantu Lebih Produktif',
                 'full_text'
-                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
-
-                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
-
-                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
-
-                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
-                    ',
+                => '1. Redmi Watch 5 Active
+                Punya harga sekitar Rp400 ribuan, Redmi Watch 5 Active menawarkan lebih dari sekadar fungsi dasar smartwatch. Dilengkapi dengan layar LCD 2,0 inci yang nyaman dilihat sepanjang hari dan baterai awet hingga 18 hari, kamu tak perlu khawatir kehabisan daya saat menggunakan smartwatch ini.
+                
+                2. Redmi Watch 5 Lite
+                Untuk kamu yang ingin smartwatch murah dengan layar lebih tajam, Redmi Watch 5 Lite tentu boleh banget dilirik, ya!
+                ',
                 'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
                 'user_id' => $userIds[array_rand($userIds)], // Random user
                 'category_id' => $categoryId, // Technology category
             ],
             [
-                'title' => 'The Future of AI in Technology',
+                'title' => 'Rekap Smarthphone Xiaomi Terbaru di Indonesia Selama 2024',
                 'full_text'
-                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
+                => '1. Xiaomi Redmi A3
+                Untuk kamu yang ingin smartwatch murah dengan layar lebih tajam, Redmi Watch 5 Lite tentu boleh banget dilirik, ya!
 
-                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
-
-                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
-
-                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
-                    ',
+                2. Xiaomi Redmi Note 13 AG
+                Pada Februari 2024, Xiaomi meluncurkan lima anggota Redmi Note 13 series sekaligus. Model yang paling murah adalah Redmi Note 13 4G
+                ',
                 'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
                 'user_id' => $userIds[array_rand($userIds)], // Random user
                 'category_id' => $categoryId, // Technology category
