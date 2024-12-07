@@ -21,26 +21,26 @@
         <div class="flex justify-center gap-12">
             <!-- Person 1 -->
             <div class="text-center">
-                <img src="{{asset('images/apip.jpg')}}" alt="Apip" class="w-50 h-50 rounded-full mx-auto mb-4 shadow-lg">
+                <img src="{{asset('images/apip.jpg')}}" alt="Apip" class="w-44 h-44 rounded-full mx-auto mb-4 shadow-lg">
                 <h3 class="text-lg font-semibold text-gray-800">Afiif</h3>
                 <p class="text-gray-600 mt-2">NIM : 235150601111031</p>
-                <p class="text-gray-600 mt-2">specialization : Web programming</p>
+                <p class="text-gray-600 mt-2">Specialization : Web Programming</p>
             </div>
 
             <!-- Person 2 -->
             <div class="text-center">
-                <img src="{{asset('images/ucup ganteng.jpg')}}" alt="Ucup" class="w-50 h-50 rounded-full mx-auto mb-4 shadow-lg">
+                <img src="{{asset('images/ucup ganteng.jpg')}}" alt="Ucup" class="w-44 h-44 rounded-full mx-auto mb-4 shadow-lg">
                 <h3 class="text-lg font-semibold text-gray-800">Yusuf</h3>
                 <p class="text-gray-600 mt-2">NIM : 235150601111032</p>
-                <p class="text-gray-600 mt-2">specialization : Computer network</p>
+                <p class="text-gray-600 mt-2">Specialization : Computer Network</p>
             </div>
 
             <!-- Person 3 -->
             <div class="text-center">
-                <img src="{{asset('images/sasa.jpg')}}" alt="Sasa" class="w-50 h-50 rounded-full mx-auto mb-4 shadow-lg">
+                <img src="{{asset('images/sasa.jpg')}}" alt="Sasa" class="w-44 h-44 rounded-full mx-auto mb-4 shadow-lg">
                 <h3 class="text-lg font-semibold text-gray-800">Khansa</h3>
                 <p class="text-gray-600 mt-2">NIM : 235150607111027</p>
-                <p class="text-gray-600 mt-2">specialization : Database</p>
+                <p class="text-gray-600 mt-2">Specialization : Database</p>
             </div>
         </div>
     </div>

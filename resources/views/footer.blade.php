@@ -17,7 +17,7 @@
             </p>
         </div>
 
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="flex space-x-3 group">
+        <a href="https://www.instagram.com/kertasb6/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" class="flex space-x-3 group">
             <!-- Instagram Icon -->
             <div class="flex items-center">
                 <svg
