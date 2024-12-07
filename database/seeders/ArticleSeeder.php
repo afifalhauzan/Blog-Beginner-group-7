@@ -80,7 +80,83 @@ class ArticleSeeder extends Seeder
                 'image' => $this->storeImage('article4.jpg'), // Placeholder image for VR
                 'user_id' => $userIds[array_rand($userIds)], // Random user
                 'category_id' => $categoryId, // Technology category
-            ]
+            ], 
+            [
+                'title' => 'The Future of AI in Technology',
+                'full_text'
+                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
+
+                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
+
+                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
+
+                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
+                    ',
+                'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
+                'user_id' => $userIds[array_rand($userIds)], // Random user
+                'category_id' => $categoryId, // Technology category
+            ],
+            [
+                'title' => 'The Future of AI in Technology',
+                'full_text'
+                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
+
+                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
+
+                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
+
+                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
+                    ',
+                'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
+                'user_id' => $userIds[array_rand($userIds)], // Random user
+                'category_id' => $categoryId, // Technology category
+            ],
+            [
+                'title' => 'The Future of AI in Technology',
+                'full_text'
+                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
+
+                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
+
+                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
+
+                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
+                    ',
+                'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
+                'user_id' => $userIds[array_rand($userIds)], // Random user
+                'category_id' => $categoryId, // Technology category
+            ],
+            [
+                'title' => 'The Future of AI in Technology',
+                'full_text'
+                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
+
+                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
+
+                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
+
+                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
+                    ',
+                'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
+                'user_id' => $userIds[array_rand($userIds)], // Random user
+                'category_id' => $categoryId, // Technology category
+            ],
+            [
+                'title' => 'The Future of AI in Technology',
+                'full_text'
+                => 'The future of Artificial Intelligence (AI) is poised to bring transformative changes across a wide range of industries. As AI continues to advance, its capabilities in natural language processing (NLP) are revolutionizing the way we interact with machines. AI-powered virtual assistants and chatbots are becoming more sophisticated, enabling businesses to offer improved customer support and personalized experiences.
+
+                    In the realm of autonomous systems, AI is making significant strides in transforming industries such as transportation. Self-driving vehicles, powered by machine learning algorithms, are expected to reduce traffic accidents, optimize routes, and increase fuel efficiency. AI is also playing a pivotal role in supply chain optimization, using predictive analytics to anticipate demand, reduce waste, and improve efficiency.
+
+                    Despite its potential, the future of AI also presents challenges that need to be addressed. One major concern is the ethical implications of AI, particularly in areas such as privacy, data security, and algorithmic bias. As AI becomes more integrated into daily life, there is a growing need for regulations and guidelines to ensure that these technologies are used responsibly. Additionally, job displacement due to automation is a pressing issue, with AI potentially replacing human workers in sectors like manufacturing and customer service.
+
+                    As we look to the future, AI potential to drive progress is undeniable, but careful consideration must be given to its societal impact. AIs influence will continue to grow, but we must navigate the ethical, economic, and regulatory challenges to ensure that its benefits are maximized while minimizing any negative consequences.
+                    ',
+                'image' => $this->storeImage('article1.jpg'), // Placeholder image for AI
+                'user_id' => $userIds[array_rand($userIds)], // Random user
+                'category_id' => $categoryId, // Technology category
+            ],
+
         ];
 
         // Create articles and assign tags
