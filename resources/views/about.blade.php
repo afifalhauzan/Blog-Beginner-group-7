@@ -15,7 +15,7 @@
 <body class="font-sans antialiased bg-gray-50">
     @include('navigation')
     <!-- Include image -->
-    <img src="{{ asset('images/download.jpg') }}" alt="Download Image" class="mx-auto mt-4">
+    
     @include('footer')
 </body>
 
