@@ -37,7 +37,7 @@
             <!-- Contact Us Text -->
             <div class="flex items-center">
                 <span class="text-sm text-white group-hover:text-gray-300 transition duration-200">
-                    Contact Us
+                    Contact Us @kertasb6
                 </span>
             </div>
         </a>
