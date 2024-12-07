@@ -14,7 +14,6 @@
 
 <body class="font-sans antialiased bg-gray-50">
     @include('navigation')
-    <h1> Yak disini ada ucup sasa dan apip ges</h1>
     <!-- Include image -->
     <img src="{{ asset('images/download.jpg') }}" alt="Download Image" class="mx-auto mt-4">
     @include('footer')
